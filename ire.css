@@ -38,7 +38,25 @@ img {
 
 img:hover {	
 		box-shadow: 0 0 12px black;
+<<<<<<< HEAD
 }git 
+=======
+} 
+
+button {
+	margin: 0 auto;
+	display: block;
+
+}
+
+#thisDiv {	
+	width: 100%;
+	padding: 50px 0;
+	text-align: center;
+
+}
+
+>>>>>>> Changed javascript to toggle registration form
 
 
 

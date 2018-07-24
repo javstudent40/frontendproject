@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-// Clicking on picture logs 'Clicked' to javascript console
 
-function change() {
-	var highlight = document.getElementsByTagName('img');
-	console.log('clicked');
-}
-
-change();
-=======
 // Clicking on button toggles registration form as well as changing text within button
 
 var x = document.getElementById("thisDiv");
@@ -26,4 +17,4 @@ function reg() {
 	
 };
 
->>>>>>> Changed javascript to toggle registration form
+

@@ -2,15 +2,21 @@
 /* Mobile Viewpoint */
 
 html {
-	background: #999966;
+	background: lightgray;
 }
 
 h1 {
+	width: 100%;
+	height: 150px;
+	background: url("https://images.unsplash.com/photo-1476990789491-712b869b91a5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fa9fccccad158d1c8e24c6d4d4262fd1&auto=format&fit=crop&w=888&q=80");
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: white;
 	text-align: center;
 	font-family: 'Dancing Script', cursive;
 	font-size: 5em;
-	background: #4d4d33;
+	position: relative;
+	z-index: 100;
 }
 
 ul {
@@ -55,6 +61,19 @@ button {
 }
 
 
+
+
+#showcase .bg-image {
+	position: absolute;
+	background: #333 url('https://images.unsplash.com/photo-1502758185688-8f322e06d0eb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=616959d19cc446ba8c5a5c22fff02439&auto=format&fit=crop&w=1350&q=80');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 96px;
+	z-index: -1;
+	opacity: 0.4;
+}
 
 
 
